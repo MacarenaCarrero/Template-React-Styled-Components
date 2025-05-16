@@ -1,3 +1,6 @@
+import { createGlobalStyle } from 'styled-components';
+
+export const GlobalStyles = createGlobalStyle`
 *,
 *::after,
 *::before {
@@ -28,3 +31,4 @@ body {
   margin: 0;
   font-family: sans-serif;
 }
+`;
